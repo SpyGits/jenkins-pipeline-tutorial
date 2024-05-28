@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Compile') {
             steps {
-                echo 'Compile the source code visible to public' 
+                echo 'Compile the source code visible to public view' 
             }
         }
         stage('Security Check') {
